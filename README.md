@@ -5,7 +5,7 @@ Home: https://github.com/axiom-data-science/modflow2netcdf
 
 Package license: MIT
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Converts Modflow Output files to CF Compliant NetCDF
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/modflow2netcdf-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/modflow2netcdf-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/modflow2netcdf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/modflow2netcdf-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/modflow2netcdf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/modflow2netcdf-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/modflow2netcdf/badges/version.svg)](https://anaconda.org/conda-forge/modflow2netcdf)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/modflow2netcdf/badges/downloads.svg)](https://anaconda.org/conda-forge/modflow2netcdf)
 
 
 Updating modflow2netcdf-feedstock
