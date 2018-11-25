@@ -7,16 +7,15 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: Converts Modflow Output files to CF Compliant NetCDF.
+Summary: Converts Modflow Output files to CF Compliant NetCDF
 
 
 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/modflow2netcdf-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/modflow2netcdf-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/modflow2netcdf-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/modflow2netcdf-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/modflow2netcdf-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/modflow2netcdf-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/modflow2netcdf-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/modflow2netcdf-feedstock)
 
 Current release info
 ====================
