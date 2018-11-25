@@ -5,7 +5,6 @@ package:
   version: {{ version }}
 
 source:
-  fn: modflow2netcdf-{{ version }}.tar.gz
   url: https://github.com/axiom-data-science/modflow2netcdf/archive/{{ version }}.tar.gz
   sha256: fa444a0962f4407c33354317b437fe9c4911f4bc74da3d314d8fbebeebb90f50
   patches:
@@ -13,16 +12,16 @@ source:
     - np_mpl_version.patch
 
 build:
-  number: 1000
-  skip: True  # [py3k]
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
-    - python
-    - setuptools
+  host:
+    - python <3
+    - pip
   run:
-    - python
+    - python <3
     - numpy
     - matplotlib
     - scipy
@@ -44,7 +43,7 @@ test:
 about:
   home:  https://github.com/axiom-data-science/modflow2netcdf
   license: MIT
-  summary: 'Converts Modflow Output files to CF Compliant NetCDF.'
+  summary: 'Converts Modflow Output files to CF Compliant NetCDF'
 
 extra:
   recipe-maintainers:
