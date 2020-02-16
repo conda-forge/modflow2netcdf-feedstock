@@ -43,6 +43,7 @@ test:
 about:
   home:  https://github.com/axiom-data-science/modflow2netcdf
   license: MIT
+  license_file: LICENSE
   summary: 'Converts Modflow Output files to CF Compliant NetCDF'
 
 extra:
